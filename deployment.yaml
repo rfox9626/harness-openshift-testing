@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-world
-          image: hangrystarvingmaya/hello-world:latest
+          image: <+artifact.image>
           ports:
             - containerPort: 8080
           resources:
